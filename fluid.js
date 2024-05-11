@@ -30,8 +30,8 @@ window.onload = function() {
 	//initialize
 	var particles = [];
 	var grid = [];
-	for (i=0;i<50;i++) {
-		for (j=0;j<50;j++) {
+	for (i=0;i<100;i++) {
+		for (j=0;j<100;j++) {
 			particles.push(new Particle(i,j,0.1,0));
 		}
 	}
